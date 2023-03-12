@@ -386,11 +386,13 @@
 
   .navigation a:hover + .nav_pic {
     display: inherit;
+    transition: all 0.8s ease-out;
   }
 
   .navigation a:active + .nav_pic,
   .navigation a:focus + .nav_pic {
     display: inherit;
+    transition: all 0.8s ease-out;
   }
 
   .nav_item {
@@ -424,6 +426,7 @@
     display: none;
     margin: 0;
     padding: 0;
+    transition: all 0.8s ease-in;
   }
 
   .meme-pic {
